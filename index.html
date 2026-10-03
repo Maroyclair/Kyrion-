@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Kyrion | Comunidade</title>
+  <meta name="description" content="Kyrion — comunidade, tutoriais, redes sociais e conteúdos.">
+  <meta name="theme-color" content="#070b18">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;800&family=Cormorant+Garamond:wght@400;500;600;700&family=UnifrakturCook:wght@700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- Textura sutil -->
+  <div class="noise" aria-hidden="true"></div>
+
+  <!-- ========================= HEADER ========================= -->
+  <header class="site-header" id="inicio">
+    <a class="brand-mini" href="#inicio" aria-label="Ir para o início">
+      <span class="mini-cross">✝</span>
+      <span>Kyrion</span>
+    </a>
+
+    <nav class="main-nav" id="mainNav" aria-label="Navegação principal">
+      <a class="nav-link active" href="#inicio">Início</a>
+      <a class="nav-link" href="#sobre">Sobre</a>
+      <a class="nav-link" href="#tutoriais">Tutoriais</a>
+      <a class="nav-link" href="#redes">Redes</a>
+      <a class="nav-link" href="#contato">Contato</a>
+    </nav>
+
+    <div class="header-actions">
+      <button class="theme-toggle" id="themeToggle" type="button"
+              aria-label="Alternar para modo claro"
+              aria-pressed="false">
+        <span class="theme-icon" id="themeIcon">☾</span>
+        <span class="theme-text" id="themeText">Modo escuro</span>
+      </button>
+
+      <button class="menu-toggle" id="menuToggle" type="button"
+              aria-label="Abrir menu"
+              aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- ========================= HERO ========================= -->
+    <section class="hero" aria-label="Apresentação">
+      <div class="hero-bg" aria-hidden="true"></div>
+      <div class="hero-vignette" aria-hidden="true"></div>
+      <div class="blue-moon" aria-hidden="true"></div>
+
+      <div class="hero-content">
+        <div class="hero-banner">
+          <span></span>
+          <strong>KYRION · DIGITAL COMMUNITY</strong>
+          <span></span>
+        </div>
+
+        <p class="overline">UMA COMUNIDADE NAS SOMBRAS</p>
+
+        <div class="title-plaque">
+          <span class="plaque-corner top-left">✝</span>
+          <span class="plaque-corner top-right">✝</span>
+          <span class="plaque-corner bottom-left">✝</span>
+          <span class="plaque-corner bottom-right">✝</span>
+          <h1>Kyrion</h1>
+        </div>
+
+        <p class="hero-subtitle">GÓTICO · VAMPIRESCO · AZUL NOTURNO</p>
+
+        <p class="hero-text">
+          Entre para a Kyrion. Explore conteúdos, tutoriais, redes sociais
+          e uma comunidade construída para quem gosta de uma atmosfera diferente.
+        </p>
+
+        <div class="hero-actions">
+          <a class="blood-btn primary" data-url="discord" href="#">
+            <span class="btn-symbol">◉</span>
+            ENTRAR NO DISCORD
+            <span class="btn-arrow">›</span>
+          </a>
+
+          <button class="blood-btn" id="openTutorialHero" type="button">
+            <span class="btn-symbol">▶</span>
+            VER TUTORIAL
+            <span class="btn-arrow">›</span>
+          </button>
+        </div>
+      </div>
+
+      <div class="hero-cross" aria-hidden="true">✝</div>
+      <div class="hero-bottom-glow" aria-hidden="true"></div>
+    </section>
+
+    <!-- ========================= CATEGORIAS ========================= -->
+    <section class="category-strip" aria-label="Categorias">
+      <a href="#sobre"><span>✝</span> Sobre</a>
+      <a href="#tutoriais"><span>▶</span> Tutoriais</a>
+      <a href="#redes"><span>◈</span> Redes sociais</a>
+      <a href="#contato"><span>✉</span> Contato</a>
+    </section>
+
+    <!-- ========================= SOBRE ========================= -->
+    <section class="section" id="sobre">
+      <div class="section-heading">
+        <p class="eyebrow">01 · SOBRE</p>
+        <h2>Bem-vindo à <span>Kyrion</span></h2>
+        <p>
+          Um espaço com identidade própria, visual gótico e uma atmosfera
+          inspirada em noites frias, castelos e tons azulados.
+        </p>
+      </div>
+
+      <div class="feature-grid">
+        <article class="feature-card">
+          <div class="feature-icon">♜</div>
+          <h3>Comunidade</h3>
+          <p>Um lugar para conversar, compartilhar e acompanhar novidades.</p>
+          <a href="#redes" class="text-link">Conhecer as redes <b>→</b></a>
+        </article>
+
+        <article class="feature-card">
+          <div class="feature-icon">✦</div>
+          <h3>Conteúdo</h3>
+          <p>Tutoriais, vídeos, guias e materiais organizados por categoria.</p>
+          <a href="#tutoriais" class="text-link">Ver tutoriais <b>→</b></a>
+        </article>
+
+        <article class="feature-card">
+          <div class="feature-icon">☾</div>
+          <h3>Atmosfera</h3>
+          <p>Uma estética vampiresca e gótica em uma paleta azul noturna.</p>
+          <button class="text-link js-scroll-top" type="button">Voltar ao topo <b>↑</b></button>
+        </article>
+      </div>
+    </section>
+
+    <!-- ========================= TUTORIAIS ========================= -->
+    <section class="section tutorial-section" id="tutoriais">
+      <div class="section-heading">
+        <p class="eyebrow">02 · TUTORIAIS</p>
+        <h2>Aprenda com a Kyrion</h2>
+        <p>Abra o tutorial para fazer download do Minecraft Bedrock mobile, diretamente no site, sem sair da página.</p>
+      </div>
+
+      <div class="tutorial-panel">
+        <div class="tutorial-art">
+          <div class="tutorial-moon"></div>
+          <span class="tutorial-cross">✝</span>
+          <span class="tutorial-bat">⌁</span>
+          <div class="tutorial-seal">K</div>
+        </div>
+
+        <div class="tutorial-info">
+          <p class="small-label">GUIA PRINCIPAL</p>
+          <h3>Tutorial Kyrion</h3>
+          <p>
+            Configure o link do seu vídeo no arquivo <strong>script.js</strong>.
+            O botão abaixo abrirá o vídeo em uma janela elegante dentro do site.
+          </p>
+
+          <div class="tutorial-buttons">
+            <button class="blue-btn" id="openTutorialPanel" type="button">
+              ▶ Assistir agora
+            </button>
+            <a class="outline-btn" data-url="youtube" href="#" target="_blank" rel="noopener noreferrer">
+              YouTube ↗
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================= REDES ========================= -->
+    <section class="section" id="redes">
+      <div class="section-heading">
+        <p class="eyebrow">03 · REDES SOCIAIS</p>
+        <h2>Encontre a Kyrion</h2>
+        <p>Links oficiais em um único lugar.</p>
+      </div>
+
+      <div class="social-grid">
+        <a class="social-card discord" data-url="discord" href="#" target="_blank" rel="noopener noreferrer">
+          <div class="social-logo">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path fill="currentColor" d="M19.5 4.3A16.2 16.2 0 0 0 15.8 3l-.5 1a14 14 0 0 0-6.6 0l-.5-1a16.2 16.2 0 0 0-3.7 1.3C2.2 8.1 1.6 11.8 1.9 15.5A15.5 15.5 0 0 0 6.5 18l1.1-1.5c-.6-.2-1.2-.5-1.7-.8l.4-.3c3.3 1.5 7.1 1.5 10.4 0l.4.3c-.5.3-1.1.6-1.7.8l1.1 1.5a15.5 15.5 0 0 0 4.6-2.5c.4-4.3-.7-8-1.6-11.2ZM8.7 14.2c-1 0-1.8-.9-1.8-2s.8-2 1.8-2 1.8.9 1.8 2-.8 2-1.8 2Zm6.6 0c-1 0-1.8-.9-1.8-2s.8-2 1.8-2 1.8.9 1.8 2-.8 2-1.8 2Z"/>
+            </svg>
+          </div>
+          <div class="social-copy"><strong>Discord</strong><span>Servidor e comunidade</span></div>
+          <b>↗</b>
+        </a>
+
+        <a class="social-card instagram" data-url="instagram" href="#" target="_blank" rel="noopener noreferrer">
+          <div class="social-logo">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <rect x="3.2" y="3.2" width="17.6" height="17.6" rx="5" fill="none" stroke="currentColor" stroke-width="2"/>
+              <circle cx="12" cy="12" r="4.1" fill="none" stroke="currentColor" stroke-width="2"/>
+              <circle cx="17.5" cy="6.7" r="1.1" fill="currentColor"/>
+            </svg>
+          </div>
+          <div class="social-copy"><strong>Instagram</strong><span>Fotos e novidades</span></div>
+          <b>↗</b>
+        </a>
+
+        <a class="social-card tiktok" data-url="tiktok" href="#" target="_blank" rel="noopener noreferrer">
+          <div class="social-logo">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path fill="currentColor" d="M14.1 3h3c.2 1.8 1.2 3.3 2.9 4.2v3a8 8 0 0 1-2.9-1v6.2a5.6 5.6 0 1 1-5.6-5.6c.4 0 .8 0 1.2.1v3.1a2.6 2.6 0 1 0 1.4 2.3V3Z"/>
+            </svg>
+          </div>
+          <div class="social-copy"><strong>TikTok</strong><span>Vídeos e conteúdo</span></div>
+          <b>↗</b>
+        </a>
+
+        <a class="social-card youtube" data-url="youtube" href="#" target="_blank" rel="noopener noreferrer">
+          <div class="social-logo">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path fill="currentColor" d="M21.6 7.2a2.8 2.8 0 0 0-2-2C17.8 4.7 12 4.7 12 4.7s-5.8 0-7.6.5a2.8 2.8 0 0 0-2 2A29 29 0 0 0 1.9 12a29 29 0 0 0 .5 4.8 2.8 2.8 0 0 0 2 2c1.8.5 7.6.5 7.6.5s5.8 0 7.6-.5a2.8 2.8 0 0 0 2-2 29 29 0 0 0 .5-4.8 29 29 0 0 0-.5-4.8ZM10 15.2V8.8l5.5 3.2L10 15.2Z"/>
+            </svg>
+          </div>
+          <div class="social-copy"><strong>YouTube</strong><span>Tutoriais e vídeos</span></div>
+          <b>↗</b>
+        </a>
+      </div>
+    </section>
+
+    <!-- ========================= CONTATO ========================= -->
+    <section class="section contact-section" id="contato">
+      <div class="contact-card">
+        <div>
+          <p class="eyebrow">04 · CONTATO</p>
+          <h2>Faça parte da noite.</h2>
+          <p>Escolha uma rede social ou envie um e-mail para entrar em contato.</p>
+        </div>
+
+        <div class="contact-actions">
+          <a class="blue-btn" data-url="email" href="#">✉ Enviar e-mail</a>
+          <a class="outline-btn" data-url="discord" href="#" target="_blank" rel="noopener noreferrer">Discord ↗</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ========================= FOOTER ========================= -->
+  <footer class="site-footer">
+    <div class="footer-brand">
+      <span>✝</span>
+      <strong>Kyrion</strong>
+    </div>
+
+    <p>
+      Site desenvolvido por <strong>Maroyclair</strong>.
+      <br>
+      © <span id="year"></span> Maroyclair — Todos os direitos autorais reservados.
+    </p>
+
+    <div class="footer-actions">
+      <a data-url="discord" href="#" target="_blank" rel="noopener noreferrer" aria-label="Discord">◉</a>
+      <a data-url="instagram" href="#" target="_blank" rel="noopener noreferrer" aria-label="Instagram">◎</a>
+      <a data-url="tiktok" href="#" target="_blank" rel="noopener noreferrer" aria-label="TikTok">♪</a>
+      <button class="top-button js-scroll-top" type="button" aria-label="Voltar ao topo">↑</button>
+    </div>
+  </footer>
+
+  <!-- ========================= MODAL DO TUTORIAL ========================= -->
+  <div class="modal" id="tutorialModal" aria-hidden="true">
+    <div class="modal-backdrop" data-close-modal></div>
+
+    <div class="modal-box" role="dialog" aria-modal="true" aria-labelledby="tutorialTitle">
+      <button class="modal-close" type="button" data-close-modal aria-label="Fechar tutorial">×</button>
+
+      <p class="eyebrow">TUTORIAL KYRION</p>
+      <h2 id="tutorialTitle">Assistir ao tutorial</h2>
+
+      <div class="video-wrapper">
+        <iframe id="tutorialFrame"
+                title="Tutorial Kyrion"
+                src="about:blank"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+
+        <div class="video-empty" id="videoEmpty">
+          <span>▶</span>
+          <strong>Configure o vídeo no script.js</strong>
+          <small>Use um link do YouTube na variável <b>tutorial</b>.</small>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
